@@ -1,0 +1,55 @@
+GIT
+- Version control system is a tool that track changes in code.
+    - popular
+    - free and open source
+    - fast & scalable
+
+*it tracks the history of our codes.
+* helps in collaboration
+
+GITHUB
+- Website that allows developers to store and manage their code using git tools.
+- We create repository(folders) on github
+
+REPO CREATION
+- README- A special type of file where we can write a long discription about
+          our project.
+        - Every kind of info we can write there.
+
+#INITIAL COMMIT - Our very first recorded change in the repository, marking the
+project starting point.
+#COMMIT MEANS CHANGES
+
+#If we want to change any further, firstof all we need to add firt then we can commit.
+Commit means the change is done, add means the code is ready to be commit.
+- its a two step process. (not on github, on github we can change directly withoud add)
+
+
+# Setting Up GIT
+    #Configuring Git
+    * git config --global user.name ""
+    * git config --global user.email ""
+    * git config --list
+
+* cd - change directory
+* ls - list of files present in the directory
+* ls -a - to see all hidden files
+Remote - Files on Github              Local - Files on laptops or pc
+
+#   clone and status
+cloning a repository in our local
+clone- git clone https link
+
+#Status- displays the status of the code
+-Untracked - new files that git doesnt know about.
+
+-Modifiedd- Changed
+
+- Staged (add)- file is ready to be commited
+
+- unmodified - unchanged
+
+
+# ADD AND COMMIT
+git add <-file name->
+commit git commit -m 
