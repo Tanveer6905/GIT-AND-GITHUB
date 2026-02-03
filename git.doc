@@ -74,3 +74,17 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Tanveer6905/DSA-TRACKER.git
 git push -u origin main
+
+
+## GIT BRANCHES
+Git branches are lightweight, movable pointers to a snapshot of 
+our changes (a commit), which allow us to diverge from the main 
+line of development and work on new features or bug fixes in isolation 
+without affecting the main codebase. 
+
+## BRANCH COMMANDS
+- git branch (to check the current branch)
+- git branch -M main (to rename the branch)
+- git checkout <branch name> (to navigate between branches)
+- git checkout -b <branch name> (to create new branch)
+- git branch -d <branch name> (to delete the branch)
