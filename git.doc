@@ -88,3 +88,46 @@ without affecting the main codebase.
 - git checkout <branch name> (to navigate between branches)
 - git checkout -b <branch name> (to create new branch)
 - git branch -d <branch name> (to delete the branch)
+
+## The changes made on other branch will be shown to that branch only.
+_To push the other branch -> git push origin <new branch name>
+
+## Merging Code - 2 ways
+1st
+- git diff <branch name> (to compare commits, branches, files and more)
+- git merge <branch name>
+2nd
+#Pull Request
+tells other about the changes we have made to a branch of repo in github.
+We raise a request to merge on github, and it allows us to merge branches there.
+
+Once merged on git, we want our local to be merged same so that we have to do
+-Pull Command - git pull origin
+
+used to fetch and download content from a remote repo and immediatley update
+the local repo to match the content.
+
+##Resolving merge conflicts
+Resolving Git merge conflicts involves identifying files with competing changes,
+opening them to manually edit and select the desired code,
+
+
+##Undo Changes
+
+Case 1: staged changes (add)
+git reset <file name> / get reset
+
+Case 2:
+Commited changes (for one commit)
+git reset HEAD~1
+
+Case 3:
+Commited changes (for many commit)
+git reset <commit hash>
+git reset --hard <commit hash> (changes the local too)
+
+## git log - can be used to see all commits
+
+
+## Fork - A rough copy
+
