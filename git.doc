@@ -64,3 +64,13 @@ upload local content to remote repo
 The command git push origin main is used to upload commits from your local 
 main branch to the main branch on the remote repository named origin
 
+## If we are making folders and writiing code in our local first, and wish to 
+push it to github, then we need to create a repo in github and perform following steps
+
+echo "# DSA-TRACKER" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Tanveer6905/DSA-TRACKER.git
+git push -u origin main
